@@ -1,0 +1,67 @@
+#root{
+  
+    --width:100px;
+    --heigth:50px;
+
+}
+
+.containerM{
+
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   margin-top: 7.35rem;
+
+}
+
+.containerSecun{
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3.5rem;
+    gap: 2rem;
+}
+
+.containerImg{
+    padding: 20px;
+}
+
+.sectionM{
+
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    
+   
+}
+
+.txtPrima{
+
+  font-size: 3rem;
+  font-weight: bold;
+
+}
+
+/* .txtSecun{
+
+    color: aliceblue;
+    font-size: 1.15rem;
+    margin-top: 2rem;
+    text-align: center;
+    width: 25rem;
+
+} */
+
+
+.imgM{
+
+   width: 30rem;
+   height: auto;
+   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9);
+   margin: 25px;
+
+}
+
+/* Slider infinito dos jogos em promoções */
+
