@@ -1,0 +1,36 @@
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+
+
+.footer{
+    background-color: bisque;
+    color: white;
+    padding: 5px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    
+}
+.container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    gap: 5rem;
+}
+.contato{
+    text-align: center;
+    text-shadow: 3px 1px 2px rgba(0,0,0,0.9);
+}
+.title{
+    margin-bottom: 0.5rem;
+}
