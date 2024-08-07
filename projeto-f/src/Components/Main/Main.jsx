@@ -1,14 +1,31 @@
-import style from '../Main/main.module.css'
 import Header from '../Header/Header'
+import Article from './Article/Article'
+
+
+import style from '../Main/main.module.css'
+
+
 export default function Main() {
     return (
         <>
             <Header />
             <main className={style.containerSecun}>
+                
                 {/* Aba de jogos em promoções*/}
 
                 <h2 className={style.txtSecun}>Jogos em Promoções</h2>
 
+                <Article/>
+
+            </main>
+
+        </>
+    )
+}
+
+
+
+{/* 
                 <section className={style.sectionM}>
                     <div className={style.containerS}>
                         <div className={style.slider}>
@@ -33,9 +50,4 @@ export default function Main() {
 
                     </div>
 
-                </section>
-            </main>
-
-        </>
-    )
-}
+                </section> */}
