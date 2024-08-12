@@ -1,0 +1,55 @@
+/* footer{
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+} */
+
+.Footer {
+  color: bisque;
+  background-color: rgb(5, 112, 184);
+
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+}
+
+li {
+  list-style: none;
+  align-items: center;
+}
+
+.aF {
+  color: rgb(228, 243, 24);  
+  text-decoration: none;
+  list-style: none;
+  transition: 0.5s;
+}
+.aF:hover {
+  transition: 0.5s;
+  color: rgb(0, 0, 0);
+}
+
+.imgF{
+  width: 20px;
+  height: 20px;
+  margin-right: 0.6rem;
+}
+
+.RedesS {
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.SobreNós {
+  width: 300px;
+  text-align: center;
+}
