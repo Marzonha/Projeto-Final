@@ -1,0 +1,44 @@
+.Article{
+    background-color:darkslategray;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows:    1fr 1fr 1fr 1fr;
+    gap: 0px 0px ; 
+    grid-template-areas: 
+    " .        .         .          ."
+    "CardImgP CardImgP  CardImgS1 CardImgS2"
+    "CardImgP CardImgP  CardImgS3 CardImgS4"
+    "MCcard   MCcard    MCcard    MCcard   "
+    ;
+}
+.CardImgP{
+    grid-area: CardImgP;
+    align-self: center;
+    text-align: center;
+}
+
+.CardImgS1{
+    grid-area: CardImgS1;
+}
+
+.CardImgS2{
+    grid-area: CardImgS2;
+}
+
+.CardImgS3{
+    grid-area: CardImgS3;
+}
+
+.CardImgS4{
+    grid-area: CardImgS4;
+}
+
+.MCcard{
+    grid-area: MCcard;
+    align-self: start;
+    justify-self: center;
+}
