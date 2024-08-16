@@ -5,25 +5,28 @@
 
 .container{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     grid-template-rows:    1fr 1fr 1fr ;
     gap: 0px 0px ; 
     grid-template-areas: 
-    "CardImgP CardImgP  CardImgS1 CardImgS2"
-    "CardImgP CardImgP  CardImgS3 CardImgS4"
+    ". .  . . "
+    ".   CardImgP  CardImgS1 CardImgS2"
+    ".   CardImgP  CardImgS3 CardImgS4"
     " .   MCcard    MCcard    .   "
     ;
 }
 .imgPT{
-    width: 940px;
+    width: 800px;
     height: 450px;
     border-radius: 3px;
 }
 
 .imgST{
-    width: 468px;
-    height: 220px;
+    image-rendering: optimizeQuality;
+    width: 300px;
+    height: 230px;
     border-radius: 3px;
+    margin-left: 20px;
 
 }
 
@@ -52,16 +55,41 @@
     border-radius: 10px;
 }
 
+
 .CardImgS2{
     grid-area: CardImgS2;
+    transition: 0.5s;
+}
+
+.CardImgS2:hover{
+    transition: 0.5s;
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 .CardImgS3{
     grid-area: CardImgS3;
+    transition: 0.5s;
+}
+
+.CardImgS3:hover{
+    transition: 0.5s;
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 .CardImgS4{
     grid-area: CardImgS4;
+    transition: 0.5s;
+}
+
+.CardImgS4:hover{
+    transition: 0.5s;
+    opacity: 0.5;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 .MCcard{
@@ -73,10 +101,11 @@
     grid-gap: 1em;
     overflow: hidden;
     width: 55em;
-    & > .inner {
+  
+
+}  
+.MCcardButton > .inner {
 
       grid-gap: 1em;
       transition: all 1s ease-in-out;
     }
-
-}
