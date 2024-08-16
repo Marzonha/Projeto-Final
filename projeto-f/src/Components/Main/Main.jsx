@@ -10,14 +10,44 @@ export default function Main() {
         <>
             <Header />
             <main className={style.containerSecun}>
-                
+
                 {/* Aba de jogos em promoções*/}
 
                 <h2 className={style.txtSecun}>Jogos em Promoções</h2>
 
                 <section>
-                <Article/> 
+                    <Article />
                 </section>
+
+                <section className={style.Products}>
+                    <div className={style.container}>
+                        <h1 className={style.TitleHeading}>Recomendados</h1>
+                        <div className={style.Slider}>
+                            <button className={style.prevbtn}><img className={style.switchImg} src="./src/images/arrow-left.png" alt="" /></button>
+                            <button className={style.nextbtn}><img className={style.switchImg} src="./src/images/arrow-left.png" alt="" /></button>
+                            <div className={style.gamesSlider}>
+                                <div className={style.gamescard}>
+                                    <div className={style.productimage}>
+                                        <img className={style.imgGame} src="./src/images/jogo1.avif" alt="" />
+                                    </div>
+                                    <div>
+                                        <h2 className={style.txtC}> CoD Black Ops 2</h2>
+                                        <div className={style.containerStars} >
+                                            <img className={style.stars} src="./src/images/estrela.png" alt="" />
+                                            <img className={style.stars} src="./src/images/estrela.png" alt="" />
+                                            <img className={style.stars} src="./src/images/estrela.png" alt="" />
+                                            <img className={style.stars} src="./src/images/estrela.png" alt="" />
+                                            <img className={style.stars} src="./src/images/estrela.png" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+
+
             </main>
 
         </>

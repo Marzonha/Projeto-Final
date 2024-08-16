@@ -1,3 +1,14 @@
+#root{
+    --primary:#EEBF00;
+    --secondary:#232B38;
+    --ternary:#6C6C6C;
+    --danger:#FE4545;
+    --pure:#FEFEFE;
+    --light:#F0F0F0;
+    --heaven:#FFFFFF;
+    --footer:#2D333F;
+}
+
 .txtSecun{
     display: flex;
     justify-content: center;
@@ -5,3 +16,86 @@
     margin-bottom: 1.5rem;
 }
 
+/* slider de produtos */
+
+.Products{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+
+}
+
+/* .container{
+    padding: 3rem;  
+}
+
+.Slider{
+    padding: 3rem;
+}
+
+.gamesSlider{
+    padding: 3rem;
+} */
+
+.gamescard{
+    background-color: #FFFFFF;
+    border-radius: 30px;
+
+
+}
+
+.productimage{
+    padding: 0.6rem;
+
+}
+
+.containerStars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.stars{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.switchImg{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.imgGame{
+    width: 340px;
+    height: 350px;
+    object-fit: contain;
+}
+
+
+/* Previa do botão e o Próximo*/
+
+.prevbtn{
+    position:absolute;
+    top:119%;
+    left: 1rem;
+    z-index: 1;
+}
+
+.nextbtn{
+    position:absolute;
+    top:119%;
+    right:1rem;
+    z-index: 1;
+    transform: rotateY(180deg);
+}
