@@ -1,8 +1,15 @@
 import Header from '../Header/Header'
 import Article from './Article/Article'
 
-
 import style from '../Main/main.module.css'
+
+// Card 3D com Obj 3d de consoles
+
+import * as THREE from 'three';
+import { OrbitControls } from 'threejs-orbit-controls';
+
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
 
 export default function Main() {
@@ -19,31 +26,8 @@ export default function Main() {
                     <Article />
                 </section>
 
-                <section className={style.Products}>
-                    <div className={style.container}>
-                        <h1 className={style.TitleHeading}>Recomendados</h1>
-                        <div className={style.Slider}>
-                            <button className={style.prevbtn}><img className={style.switchImg} src="./src/images/arrow-left.png" alt="" /></button>
-                            <button className={style.nextbtn}><img className={style.switchImg} src="./src/images/arrow-left.png" alt="" /></button>
-                            <div className={style.gamesSlider}>
-                                <div className={style.gamescard}>
-                                    <div className={style.productimage}>
-                                        <img className={style.imgGame} src="./src/images/jogo1.avif" alt="" />
-                                    </div>
-                                    <div>
-                                        <h2 className={style.txtC}> CoD Black Ops 2</h2>
-                                        <div className={style.containerStars} >
-                                            <img className={style.stars} src="./src/images/estrela.png" alt="" />
-                                            <img className={style.stars} src="./src/images/estrela.png" alt="" />
-                                            <img className={style.stars} src="./src/images/estrela.png" alt="" />
-                                            <img className={style.stars} src="./src/images/estrela.png" alt="" />
-                                            <img className={style.stars} src="./src/images/estrela.png" alt="" />
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+ 
+                <section>
 
                 </section>
 
@@ -53,6 +37,7 @@ export default function Main() {
         </>
     )
 }
+
 
 
 
@@ -81,4 +66,32 @@ export default function Main() {
 
                     </div>
 
-                </section> */}
+                </section> */}               
+                
+                
+                
+                {/* <section className={style.Products}>
+                    <div className={style.container}>
+                        <h1 className={style.TitleHeading}>Recomendados</h1>
+                        <div className={style.Slider}>
+                            <button className={style.prevbtn}><img className={style.switchImg} src="./src/images/arrow-left.png" alt="" /></button>
+                            <button className={style.nextbtn}><img className={style.switchImg} src="./src/images/arrow-left.png" alt="" /></button>
+                            <div className={style.gamesSlider}>
+                                <div className={style.gamescard}>
+                                    <div className={style.productimage}>
+                                        <img className={style.imgGame} src="./src/images/jogo1.avif" alt="" />
+                                    </div>
+                                    <div>
+                                        <h2 className={style.txtC}> CoD Black Ops 2</h2>
+                                        <div className={style.containerStars} >
+                                            <img className={style.stars} src="./src/images/estrela.png" alt="" />
+                                            <img className={style.stars} src="./src/images/estrela.png" alt="" />
+                                            <img className={style.stars} src="./src/images/estrela.png" alt="" />
+                                            <img className={style.stars} src="./src/images/estrela.png" alt="" />
+                                            <img className={style.stars} src="./src/images/estrela.png" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> */}
