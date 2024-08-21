@@ -1,15 +1,12 @@
 import Header from '../Header/Header'
 import Article from './Article/Article'
+import Slider from './Slider.jsx'
 
 import style from '../Main/main.module.css'
 
-// Card 3D com Obj 3d de consoles
+import './slider/style.css'
 
-import * as THREE from 'three';
-import { OrbitControls } from 'threejs-orbit-controls';
 
-const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera( 75, window.innerWidth / window.innerHeight, 0.1, 1000 );
 
 
 export default function Main() {
@@ -17,18 +14,14 @@ export default function Main() {
         <>
             <Header />
             <main className={style.containerSecun}>
-
-                {/* Aba de jogos em promoções*/}
-
                 <h2 className={style.txtSecun}>Jogos em Promoções</h2>
 
                 <section>
                     <Article />
                 </section>
 
- 
                 <section>
-
+                   <Slider/>             
                 </section>
 
 
