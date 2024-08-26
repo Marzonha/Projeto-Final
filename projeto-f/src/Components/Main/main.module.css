@@ -1,15 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/ica-rubrik-black');
 @import url('https://fonts.cdnfonts.com/css/poppins');
-#root{
-    --primary:#EEBF00;
-    --secondary:#232B38;
-    --ternary:#6C6C6C;
-    --danger:#FE4545;
-    --pure:#FEFEFE;
-    --light:#F0F0F0;
-    --heaven:#FFFFFF;
-    --footer:#2D333F;
 
+#root{
+     --width: 200px;
+     --height: 150px;
 }
 
 .container2{
