@@ -2,7 +2,6 @@ import Header from "../Header/Header";
 import Article from "./Article/Article";
 
 import style from "../Main/main.module.css";
-import X3d from "./X3d";
 
 
 
@@ -24,7 +23,7 @@ export default function Main() {
           </div>
           <div className={style.banner}>
             <div className={style.slider} style={{ "--quantity": 10 }}>
-              <div className={style.model}> <X3d/> </div>
+              <div className={style.model}><img src="./src/images/xboxsS.png" alt="" /></div>
               <div className={style.item} style={{ "--position": 1 }}>
                 <img src="./src/images/jogo1.avif" alt="" />
               </div>
