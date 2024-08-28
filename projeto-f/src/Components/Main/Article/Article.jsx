@@ -14,7 +14,6 @@ export default function Article() {
           <div className={style.CardImgS2}><img className={style.imgST} src="./src/images/cena2.jpg" alt="" /></div>
           <div className={style.CardImgS3}><img className={style.imgST} src="./src/images/cena3.webp" alt="" /></div>
           <div className={style.CardImgS4}><img className={style.imgST} src="./src/images/cena4.webp" alt="" /></div>
-          <div className={style.MCcard}>teste</div>
         </section>
       </article>
     </>
