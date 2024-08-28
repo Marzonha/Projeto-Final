@@ -15,6 +15,7 @@ function App() {
 
     <main>
       <Main/>
+
     </main>
 
     <footer>

@@ -5,6 +5,7 @@ import style from "../Main/main.module.css";
 
 
 
+
 export default function Main() {
   return (
     <>
@@ -23,7 +24,7 @@ export default function Main() {
           </div>
           <div className={style.banner}>
             <div className={style.slider} style={{ "--quantity": 10 }}>
-              <div className={style.model}><img src="./src/images/xboxsS.png" alt="" /></div>
+              <div className={style.model}> </div>
               <div className={style.item} style={{ "--position": 1 }}>
                 <img src="./src/images/jogo1.avif" alt="" />
               </div>
