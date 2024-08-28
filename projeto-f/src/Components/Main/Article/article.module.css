@@ -32,6 +32,7 @@
 
 .CardImgP{
     grid-area: CardImgP;
+    grid-row: 2 / 5;
     transition: 0.5s;
 
 }
@@ -45,6 +46,7 @@
 
 .CardImgS1{
     grid-area: CardImgS1;
+    grid-row: 2 / 5;
     transition: 0.5s;
 }
 
@@ -58,6 +60,7 @@
 
 .CardImgS2{
     grid-area: CardImgS2;
+    grid-row: 2 / 5;
     transition: 0.5s;
 }
 
@@ -70,6 +73,7 @@
 
 .CardImgS3{
     grid-area: CardImgS3;
+    grid-row: 3 / 5;
     transition: 0.5s;
 }
 
@@ -82,6 +86,7 @@
 
 .CardImgS4{
     grid-area: CardImgS4;
+    grid-row: 3 / 5;
     transition: 0.5s;
 }
 
