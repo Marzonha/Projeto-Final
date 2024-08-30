@@ -2,20 +2,35 @@ import style from "../Article/article.module.css";
 
 
 
-
 export default function Article() {
   return (
     <>
-      {/* Article */}
-      <article className={style.Article}>
-        <section className={style.container}>
-          <div className={style.CardImgP}><img className={style.imgPT} src="./src/images/cuphead.jpg" alt="" /></div>
-          <div className={style.CardImgS1}><img className={style.imgST} src="./src/images/cena1.jpg" alt="" /></div>
-          <div className={style.CardImgS2}><img className={style.imgST} src="./src/images/cena2.jpg" alt="" /></div>
-          <div className={style.CardImgS3}><img className={style.imgST} src="./src/images/cena3.webp" alt="" /></div>
-          <div className={style.CardImgS4}><img className={style.imgST} src="./src/images/cena4.webp" alt="" /></div>
-        </section>
+
+      <article>
+
+        <div className={style.containerImg} >
+          <img className={style.imgP} src="./src/images/cuphead.jpg" alt="" />
+          <div className={style.ImgS}>
+            <img className={style.imgS} src="./src/images/cena1.jpg" alt="" />
+
+            <img className={style.imgS} src="./src/images/cena2.jpg" alt="" />
+
+            <img className={style.imgS} src="./src/images/cena3.webp" alt="" />
+
+            <img className={style.imgS} src="./src/images/cena4.webp" alt="" />
+
+          </div>
+        </div>
+
+        <div className={style.btnCr}>
+          <button className={style.btnac}><a href="#"></a></button>
+          <button className={style.btnac}><a href="#"></a></button>
+          <button className={style.btnac}><a href="#"></a></button>
+          <button className={style.btnac}><a href="#"></a></button>
+        </div>
+        
       </article>
+
     </>
   );
 }

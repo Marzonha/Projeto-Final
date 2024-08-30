@@ -1,98 +1,60 @@
-/* .Article{
+article{
+    background:linear-gradient(to bottom right,
+    #072438,
+    #01364bc5);
+    height: 37.6rem;
+    padding: 1rem;
 
+}
 
-} */
+.containerImg{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
 
-.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-    grid-template-rows:    1fr 1fr 1fr 1fr ;
-    gap: 0px 0px ; 
-    grid-template-areas: 
+.imgP{
+    width: 60rem;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    margin-left: 6rem;
+}
+.imgS{
+    width: 20rem;
+    height: 15rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.btnCr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    gap: 0.7em;
+
+}
+
+.btnac {
+    background: linear-gradient(to bottom right,
+            #53afec,
+            #023c5e);
+    width: 1rem;
+    height: 1rem;
+    border: none !important;
+    border-radius: 0.19rem;
+    transition: 0.5s;
     
-    ".   CardImgP  CardImgS1 CardImgS2"
-    ".   CardImgP  CardImgS3 CardImgS4"
-    ;
-    text-align: center;
-}
-.imgPT{
-    width: 800px;
-    height: 450px;
-    border-radius: 3px;
 }
 
-.imgST{
-    image-rendering: optimizeQuality;
-    width: 300px;
-    height: 220px;
-    border-radius: 3px;
-    margin-left: 20px;
-
-}
-
-.CardImgP{
-    grid-area: CardImgP;
-    grid-row: 2 / 5;
-    transition: 0.5s;
-
-}
-
-.CardImgP:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-.CardImgS1{
-    grid-area: CardImgS1;
-    grid-row: 2 / 5;
-    transition: 0.5s;
-}
-
-.CardImgS1:hover{
-    transition: 0.5s;
-    opacity: 0.5;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-
-.CardImgS2{
-    grid-area: CardImgS2;
-    grid-row: 2 / 5;
-    transition: 0.5s;
-}
-
-.CardImgS2:hover{
-    transition: 0.5s;
-    opacity: 0.5;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-.CardImgS3{
-    grid-area: CardImgS3;
-    grid-row: 3 / 5;
-    transition: 0.5s;
-}
-
-.CardImgS3:hover{
-    transition: 0.5s;
-    opacity: 0.5;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-.CardImgS4{
-    grid-area: CardImgS4;
-    grid-row: 3 / 5;
-    transition: 0.5s;
-}
-
-.CardImgS4:hover{
-    transition: 0.5s;
-    opacity: 0.5;
-    cursor: pointer;
-    border-radius: 10px;
+.btnac:hover {
+    background: linear-gradient(to top left,
+            #389dd8,
+            #17815e);
+    cursor:pointer;
+    box-shadow: 0 0 0.2em rgba(255, 255, 255, 0.815);
 }
