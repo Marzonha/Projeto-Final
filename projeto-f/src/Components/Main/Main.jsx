@@ -20,7 +20,7 @@ export default function Main() {
 
         <section>
           <div className={style.container2}>
-            <h1 className={style.titles}>Dia de jogos gratis</h1>
+            <h1 className={style.titles}>Jogos em Destaques</h1>
           </div>
           <div className={style.banner}>
             <div className={style.slider} style={{ "--quantity": 10 }}>
