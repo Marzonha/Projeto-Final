@@ -227,10 +227,10 @@ const ImageSwitcher = () => {
                 <div>
                   <img
                     className={style.imgS}
-                    src="./src/images/slider4_3.webp"
+                    src="./src/images/slider4_4.jpg"
                     alt="Imagem Card"
                     onMouseOver={() =>
-                      handleMouseOver4("./src/images/slider4_3.webp")
+                      handleMouseOver4("./src/images/slider4_4.jpg")
                     }
                     onMouseOut={handleMouseOut4}
                   />
@@ -249,13 +249,18 @@ const ImageSwitcher = () => {
           )}
         </div>
 
-        <div className={style.btnCr}>
-          <button className={style.btnac} onClick={handlePrevSlider}>
-            Anterior
-          </button>
-          <button className={style.btnac} onClick={handleNextSlider}>
-            Próximo
-          </button>
+        <div className={style.btnCrPai}>
+          <div>
+            <button className={style.btnac} onClick={handlePrevSlider}>
+              <img  className={style.btnac} src="./src/images/setaEsq.png" alt="" />
+            </button>
+          </div>
+
+          <div>
+            <button className={style.btnac} onClick={handleNextSlider}>
+              <img  className={style.btnac2} src="./src/images/setaEsq.png" alt="" />
+            </button>
+          </div>
         </div>
       </article>
     </>
