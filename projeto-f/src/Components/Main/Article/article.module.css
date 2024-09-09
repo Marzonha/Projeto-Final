@@ -3,6 +3,7 @@ article{
     #072438,
     #01364bc5);
     padding: 1rem;
+    height: 25rem;
 
 }
 
@@ -12,6 +13,7 @@ article{
     display: flex;
     align-items: center;
     gap: 50px;
+    margin-bottom: 10px;
 }
 
 .imgP{
@@ -21,6 +23,7 @@ article{
     background-position: center;
     border-radius: 5px;
     margin-left: 6rem;
+    box-shadow: 10px 15px 20px black;
 }
 
 .imgP:hover{
@@ -32,6 +35,7 @@ article{
 .ImgS{
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 
 
@@ -39,26 +43,28 @@ article{
     width: 20rem;
     height: 15rem;
     background-size: cover;
-    background-position: center;
     border-radius: 20px;
-    padding: 10px;
+    margin-left: 24px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.9);
+    
 }
 
-.btnCr {
+/* botoes de previa e proximo */
+
+.btnCrPai {
     display: flex;
-    justify-content: center;
+    position: absolute;
+    top: 42%;
     align-items: center;
-    margin-top: 10px;
-    gap: 0.7em;
-
+    gap: 864%;
 }
 
-.btnac {
+ .btnac {
     background: linear-gradient(to bottom right,
             #53afec,
             #023c5e);
-    width: 1rem;
-    height: 1rem;
+    width: 5rem;
+    height: 3.5rem;
     border: none !important;
     border-radius: 0.2rem;
     transition: 0.5s;
@@ -66,6 +72,27 @@ article{
 }
 
 .btnac:hover {
+    background: linear-gradient(to top left,
+            #389dd8,
+            #17815e);
+    cursor:pointer;
+    box-shadow: 0 0 0.2em rgba(255, 255, 255, 0.815);
+    transition: 0.5s;
+} 
+
+.btnac2 {
+    background: linear-gradient(to bottom right,
+            #53afec,
+            #023c5e);
+    width: 5rem;
+    height: 3.5rem;
+    border: none !important;
+    border-radius: 0.2rem;
+    transition: 0.5s;
+    transform: rotateY(180deg);    
+}
+
+.btnac2:hover {
     background: linear-gradient(to top left,
             #389dd8,
             #17815e);
@@ -94,21 +121,25 @@ article{
         border-radius: 5px;
         margin-left: 6rem;
         transition: 0.5s;
+        box-shadow: 10px 15px 20px black;
     }
 
     .ImgS{
         display: flex;
         flex-direction: column;
+        gap: 15px;
     }
 
     .imgS{
         width: 13rem;
-        height: 10rem;
+        height: 8.9rem;
         background-size: cover;
         background-position: center;
         border-radius: 20px;
-        padding: 10px;
         transition: 0.5s;
+        margin-left: 24px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.9);
+        
     }
 
     .imgS:hover{
@@ -128,6 +159,7 @@ article{
     
 
 }
+
 @media screen and (max-width: 1200px){
     .containerImg{
         display: flex;
@@ -145,21 +177,26 @@ article{
         border-radius: 5px;
         margin-left: 6rem;
         transition: 0.5s;
+        
     }
 
     .ImgS{
         display: flex;
         flex-direction: column;
+        gap: 15px;
+        
     }
 
     .imgS{
         width: 12rem;
-        height: 9rem;
+        height: 7.6rem;
         background-size: cover;
         background-position: center;
         border-radius: 20px;
-        padding: 10px;
         transition: 0.5s;
+        margin-left: 10px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.9);
+       
     }
 
     .imgS:hover{
@@ -197,11 +234,13 @@ article{
         border-radius: 5px;
         margin-left: 6rem;
         transition: 0.5s;
+        box-shadow: 10px 15px 20px black;
     }
 
     .ImgS{
         display: flex;
         flex-direction: column;
+        gap: 15px;
     }
 
     .imgS{
@@ -210,8 +249,10 @@ article{
         background-size: cover;
         background-position: center;
         border-radius: 20px;
-        padding: 10px;
         transition: 0.5s;
+        margin-left: 10px;
+        box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.9);
+
     }
 
     .imgS:hover{
